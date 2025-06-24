@@ -46,7 +46,7 @@ EcoWave Solutions/
 - **Contacto**: Redes sociales, medios de contacto
 - **Comentarios**: Formulario con almacenamiento en `localStorage`.
 
-## 🎨 Paleta de Colores
+# Paleta de Colores
 
 | Uso         | Color        |
 |-------------|--------------|
