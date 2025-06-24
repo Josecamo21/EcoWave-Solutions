@@ -1,0 +1,215 @@
+/*  Variables   */
+* {
+    --color_background: #F2F2F2;
+}
+
+/*  Etiquetas   */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--color_background);
+}
+
+/*  Menu    */
+.nav-link:hover {
+    transition: font-size 1s;
+    font-size: 18px;
+}
+
+.menu {
+    position: absolute;
+    left: 75%;
+    top: 90%;
+    padding: 5%;
+    background-color: var(--color_background);
+    z-index: 1;
+}
+
+/*  Logos / Imagenes  */
+.logo {
+    height: 5%;
+    width: 5%;
+}
+
+.logos {
+    width: 5%;
+    float: left;
+}
+
+
+/*  Titulos */
+.title {
+    margin: 2%;
+    text-align: start;
+}
+
+
+/*  Cartas  */
+.card {
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 80%;
+}
+
+
+.card-color,
+.bg-color {
+    background-color: var(--color_background);
+}
+
+
+/*  Botones */
+.comment {
+    float: right;
+}
+
+.mas-comment {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 2.5%;
+}
+
+.new-comment {
+    color: white;
+    text-decoration: none;
+}
+
+.conoce {
+    color: white;
+    text-decoration: none;
+}
+
+.conoce:hover,
+.mas-comment:hover,
+.new-comment:hover {
+    color: white;
+    transition: font-size 1s;
+    font-size: 18px;
+}
+
+.border {
+    border: solid black 2px;
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+/*  Quienes Somos   */
+.who {
+    background-color: var(--color_background);
+    padding: 1%;
+}
+
+
+/*  Planes  */
+.plans {
+    background-color: var(--color_background);
+    width: 100%;
+    overflow-x: auto;
+    padding: 1%;
+}
+
+.table {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+
+/*  Contacto    */
+.redes,
+.contactar {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+
+/*  Footer  */
+.creditos {
+    text-align: center;
+    padding: 0.5%;
+}
+
+.derechos{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  Nuevo Comentario*/
+.cont {
+    height: 75vh;
+}
+
+.form {
+    border: none;
+}
+
+.nombre {
+    width: 50%;
+    resize: none;
+    border: solid black 1px;
+}
+
+.comentario {
+    height: 50vh;
+    width: 100%;
+    resize: none;
+    border: solid black 1px;
+}
+
+.enviar {
+    padding: 1%;
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+
+
+/*  PC  */
+@media (min-device-width: 500px) {
+    .menu {
+        position: absolute;
+        left: 70%;
+        top: 25%;
+        padding: 0%;
+        background-color: var(--color_background);
+        z-index: 1;
+    }
+
+    .logos {
+        width: 5%;
+        float: left;
+    }
+
+    .redes {
+        float: right;
+        position: absolute;
+        left: 50%;
+        width: auto;
+    }
+
+    .contactar {
+        width: auto;
+        position: relative;
+        left: 10%;
+    }
+
+    .comentario {
+        height: 45vh;
+    }
+
+    .enviar {
+        padding: 0.5%;
+        bottom: 5%;
+    }
+}
